@@ -1,0 +1,7 @@
+totalWhitePixels 0.14
+whiteWidth 0.35
+whiteHeight 0.58
+maxObjectWidth 0.52
+maxObjectHeight 0.59
+avgObjectWidth 0.24
+avgObjectHeight 0.35
