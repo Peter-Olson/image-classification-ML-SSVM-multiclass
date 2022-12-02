@@ -1,7 +1,7 @@
 
 /**
  * Runs the machine learning image detection program
- *
+ * 
  * @author Peter Olson mrpeterfolson@gmail.com
  */
 public class MLRunner
