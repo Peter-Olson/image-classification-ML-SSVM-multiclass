@@ -7,21 +7,17 @@ import java.awt.image.*;
  * 
  * @author Barb Ericson ericson@cc.gatech.edu
  */
-public class ImageDisplay extends JPanel implements Scrollable
-{
+public class ImageDisplay extends JPanel implements Scrollable {
   
-  /////////////////////////// fields (attributes ///////////////////////////
-  /** the image to draw */
-  private Image image;         
-  /** the preferred size of the display */
-  private Dimension prefSize;  
-  /** the current x index */
-  private int currentX = 0;    
-  /** the current y index */
-  private int currentY = 0;    
-  
-  //////////////////////////// constructors /////////////////////////////////
-  
+    /** The image to draw */
+    private Image image;         
+    /** The preferred size of the display */
+    private Dimension prefSize;  
+    /** The current x index */
+    private int currentX = 0;    
+    /** The current y index */
+    private int currentY = 0;    
+
   /**
    * Constructor that takes the image to display
    * @param theImage the image to display

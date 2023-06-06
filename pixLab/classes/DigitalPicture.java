@@ -12,23 +12,22 @@ import javax.swing.JFrame;
  * 
  * @author Barb Ericson ericson@cc.gatech.edu
  */
-public interface DigitalPicture 
-{
-  public String getFileName(); // get the file name that the picture came from
-  public String getTitle(); // get the title of the picture
-  public void setTitle(String title); // set the title of the picture
-  public int getWidth(); // get the width of the picture in pixels
-  public int getHeight(); // get the height of the picture in pixels
-  public Image getImage(); // get the image from the picture
-  public BufferedImage getBufferedImage(); // get the buffered image
-  public int getBasicPixel(int x, int y); // get the pixel information as an int   
-  public void setBasicPixel(int x, int y, int rgb); // set the pixel information
-  public Pixel getPixel(int x, int y); // get the pixel information as an object
-  public Pixel[] getPixels(); // get all pixels in row-major order
-  public Pixel[][] getPixels2D(); // get 2-D array of pixels in row-major order
-  public void load(Image image); // load the image into the picture
-  public boolean load(String fileName); // load the picture from a file
-  public void show(); // show the picture 
-  public JFrame explore(); // explore the picture
-  public boolean write(String fileName); // write out a file
+public interface DigitalPicture {
+    public String getFileName(); // Get the file name that the picture came from
+    public String getTitle(); // Get the title of the picture
+    public void setTitle( String title ); // Set the title of the picture
+    public int getWidth(); // Get the width of the picture in pixels
+    public int getHeight(); // Get the height of the picture in pixels
+    public Image getImage(); // Get the image from the picture
+    public BufferedImage getBufferedImage(); // Get the buffered image
+    public int getBasicPixel( int x, int y ); // Get the pixel information as an int   
+    public void setBasicPixel( int x, int y, int rgb ); // Set the pixel information
+    public Pixel getPixel( int x, int y ); // Get the pixel information as an object
+    public Pixel[] getPixels(); // Get all pixels in row-major order
+    public Pixel[][] getPixels2D(); // Get 2-D array of pixels in row-major order
+    public void load( Image image ); // Load the image into the picture
+    public boolean load( String fileName ); // Load the picture from a file
+    public void show(); // Show the picture 
+    public JFrame explore(); // Explore the picture
+    public boolean write( String fileName ); // Write out a file
 }
